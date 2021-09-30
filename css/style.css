@@ -1,0 +1,161 @@
+* {
+    font-family: Roboto, sans-serif;
+  }
+  header {
+    position: relative;
+  }
+  nav {
+  display: block;
+  padding: 10px 73px 0 40px;
+  width: 100%;
+  height: 53px;
+  background: #212121;
+  }
+  .menu {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  line-height: 30px;
+  }
+  .menu .menu_item {
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  }
+  .subheader {
+  position: absolute;
+  width: 100%;
+  height: 87px;
+  background-color: rgba(0, 0, 0, 0.6)
+  }
+  .subheader .subheader_official {
+  color: #FFFFFF;
+  font-weight: 200;
+  font-size: 13px;
+  }
+  .subheader .subheader_logo {
+    max-width: 100%;
+    display: block;
+    margin-top: 19px;
+  }
+  .subheader .subheader_call {
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 12px;
+    margin-top: 24px;
+  }
+  .subheader .subheader_number {  
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 22px;
+    text-decoration: none;
+  }
+  .subheader .subheader_order {
+    margin-top: 21px;
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+  }
+  h1 {
+  margin-top: 152px;
+  height: 94px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 60px;
+  }
+  .first_display {
+    background: url(../img/uber_bg.png);
+    min-height: 800px;
+  }
+  h2 {
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 36px;
+  }
+  h4.first_text {
+  height: 173px;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  }
+  .first_btn  {
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    display: block;
+    margin: 135px auto 0 auto;
+  }
+  .advantages {
+    height: 783px;
+  }
+  .adv_header {
+    display: block;
+    margin: 20px auto;
+    width: 115px;
+    height: 27px;
+    background: #000000;
+    font-weight: normal;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 29px;
+  }
+  .adv_subheader {
+  height: 48px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #222222;
+  text-align: center;
+  margin-bottom: 40px;
+  }
+  .adv_round {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 116px;
+  height: 116px;
+  background: #1EACC7;
+  border-radius: 50%;
+  margin-right: 26px;
+  }
+  .adv_descr {
+    width:75%;
+  }
+  .adv_item {
+    display: flex;
+    height: 150px;
+  }
+  .adv_head {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 21px;
+  color: #1EACC7;
+  }
